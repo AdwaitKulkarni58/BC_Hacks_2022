@@ -1,0 +1,28 @@
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+  #heading {
+      color: rgb(255, 255, 255);
+      text-align: center;
+      border: 5px solid;
+      width: 100%;
+      height: 75px;
+      margin-right: auto;
+      margin-left: auto;
+  }
+
+  #form {
+      color: azure;
+      text-size-adjust: 21;
+      margin-right: auto;
+      margin-left: auto;
+  }

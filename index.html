@@ -2,36 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>COVID-19 Stats by Country</title>
+    <title>Github Profiles</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <video
-      id="background-video"
-      autoplay
-      loop
-      muted
-      poster="background_video.mp4"
-    >
-      <source src="background_video.mp4" type="video/mp4" />
-    </video>
-
-    <div id="heading">
-      <h1>COVID-19 Stats By Country</h1>
-    </div>
-
-    <div id="form">
-      <form>
-        <label for="countryname">Enter the name the country</label>
-        <input
-          type="text"
-          id="countryname"
-          name="countryname"
-          placeholder="eg. Italy"
-        />
+    <div id="container">
+      <h1>Github Profile Searcher</h1>
+      <main>
+        <h1>Search for a Github Profile</h1>
+        
+      <form action="submit">
+        <input id="search" type="search" placeholder="Profile username" />
+        <button type="submit" id="btn">Search</button>
+      
       </form>
+      <div id="result"></div>
     </div>
+    <script src="app.js"></script>
   </body>
 </html>
